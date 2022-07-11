@@ -1,0 +1,89 @@
+/* cotton butter */
+@font-face{
+    font-family: 'cotton-butter';
+    src: url('cotton-butter.ttf');
+}
+.cotton-butter{
+    font-family: cotton-butter;
+}
+
+/* honey-jar */
+@font-face{
+    font-family: 'honey-jar';
+    src: url('honey-jar.ttf');
+}
+.honey-jar{
+    font-family: honey-jar;
+}
+
+/* jreeng */
+@font-face{
+    font-family: 'jreeng';
+    src: url('jreeng.ttf');
+}
+.jreeng{
+    font-family: jreeng;
+}
+
+/* like snow */
+@font-face{
+    font-family: 'like-snow';
+    src: url('like-snow.ttf');
+}
+.like-snow{
+    font-family: like-snow;
+}
+
+/* mat saleh */
+@font-face{
+    font-family: 'mat-saleh';
+    src: url('mat-saleh.ttf');
+}
+.mat-saleh{
+    font-family: mat-saleh;
+}
+
+/* montserrat */
+@font-face{
+    font-family: 'montserrat';
+    src: url('montserrat.ttf');
+}
+.montserrat{
+    font-family: montserrat;
+}
+
+/* poppins */
+@font-face{
+    font-family: 'poppins';
+    src: url('poppins.ttf');
+}
+.poppins{
+    font-family: poppins;
+}
+
+/* riffic */
+@font-face{
+    font-family: 'riffic';
+    src: url('riffic.ttf');
+}
+.riffic{
+    font-family: riffic;
+}
+
+/* tahu */
+@font-face{
+    font-family: 'tahu';
+    src: url('tahu.ttf');
+}
+.tahu{
+    font-family: tahu;
+}
+
+/* virus killer */
+@font-face{
+    font-family: 'virus-killer';
+    src: url('virus-killer.ttf');
+}
+.virus-killer{
+    font-family: virus-killer;
+}
