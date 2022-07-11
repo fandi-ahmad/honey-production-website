@@ -1,0 +1,45 @@
+/* responsive */
+
+@media (max-width: 720px) {
+    .span{
+        float: right;
+        padding: 30px;
+        background: #2b2b2b;
+        color: white;
+        /* font-size: 1.2em; */
+        font-variant: small-caps;
+        cursor: pointer;
+        display: block;
+    }
+    
+    .span::after{
+        width: 200px;
+        float: right;
+        right: 10%;
+        content: "+";
+    }
+    .drop{
+        clear: both;
+        width: 86%;
+        height: 0px;
+        /* overflow: hidden; */
+        text-align: center;
+        transition: height .4s ease;
+        margin: auto;
+    }
+    
+    .drop li{
+        padding: 30px;
+        list-style: none;
+    }
+    
+    #touch{
+        position: absolute;
+        opacity: 0;
+        height: 0;
+    }
+    
+    #touch:checked + .drop{
+        height: 330px;
+    }
+}

@@ -1,0 +1,141 @@
+.contact{
+    width: 100%;
+    height: 660px;
+    padding: 70px;
+    margin: 0px;
+    z-index: 1;
+}
+
+.contact-container{
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    'message img';
+}
+
+.message{
+    grid-area: message;
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    'head head'
+    'isi isi'
+    'name email'
+    'write write'
+    'send empty'
+    ;
+}
+
+.contact-text{
+    grid-area: head;
+    text-align: center;
+    font-size: 45px;
+}
+
+.input{
+    height: 40px;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #00000000;
+    border: 1px solid #b6b6b6;
+}
+
+.input:focus{
+    outline: 1px solid #a5a5a5;
+}
+
+.name{
+    grid-area: name;
+}
+
+.email{
+    grid-area: email;
+}
+
+.write{
+    grid-area: write;
+    height: 100px;
+    resize: none;
+}
+
+.message-send{
+    grid-area: send;
+    font-weight: 600;
+    color: black;
+    background-color: #f8ce8a;
+    border: 0px;
+    width: 80%;
+    height: 40px;
+}
+
+.message-send:hover{
+    background-color: #eebf73;
+}
+
+.message-send:active{
+    font-size: 15px;
+}
+
+
+.empty{
+    grid-area: empty;
+}
+
+.img-contact{
+    grid-area: img;
+    width: 80%;
+    margin-left: 20%;
+}
+
+/* css for responsive */
+
+@media (max-width: 992px) {
+    .contact-container{
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        'message';
+    }
+
+    .img-contact{
+        display: none;
+    }
+}
+
+@media (max-width: 720px) {
+    .message{
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        'head'
+        'isi'
+        'name'
+        'email'
+        'write'
+        'send';
+    }
+
+    .message{
+        height: 450px;
+    }
+
+    .input{
+        margin: 10px 0px;
+    }
+
+    .message-send{
+        width: 100%;
+        height: 50px;
+    }
+
+    .contact-text{
+        margin: 20px;
+    }
+
+    .message-send{
+        margin-top: 10px;
+    }
+}
